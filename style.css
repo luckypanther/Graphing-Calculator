@@ -1,8 +1,12 @@
 body {
-  background-color: #223344;
+  background-color: bisque;
 }
 
 h1 {
-  font-family: Oxygen;
+  font-family: "Conic Sans MS";
   font-weight: bold;
+}
+
+canvas {
+  background-color: white;
 }
