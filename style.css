@@ -10,3 +10,16 @@ h1 {
 canvas {
   background-color: white;
 }
+
+span {
+  display: inline-block;
+  *display: inline;
+  align-content: flex-start;
+}
+
+#canvas_div, #settings {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+}

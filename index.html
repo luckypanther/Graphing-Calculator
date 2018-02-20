@@ -7,6 +7,42 @@
   </head>
   <body onload="init()">
     <h1>Graphing Calculator</h1>
-    <canvas id="canvas" width="800" height="800"></canvas>
+    <div id="canvas_div">
+      <canvas id="canvas" width="700" height="800"></canvas>
+    </div>
+    <div id="settings">
+      <span>
+        <h4>function</h4>
+        <input type="text" id="function" placeholder="x+sin(x)" value="x+sin(x)">
+      </span>
+      <span>
+        <h4>x-min</h4> 
+        <input type="number" id="x-min" placeholder=-10 value=-10 step=1>
+      </span>
+      <span>
+          <h4>x-max</h4> 
+          <input type="number" id="x-max" placeholder=10 value=10 step=1>
+      </span>
+      <span>
+          <h4>y-min</h4> 
+          <input type="number" id="y-min" placeholder=-10 value=-10 step=1>
+      </span>
+      <span>
+          <h4>y-max</h4> 
+          <input type="number" id="y-max" placeholder=10 value=10 step=1>
+      </span>
+      <span>
+        <h4>x-ticks</h4>
+        <input type="number" id="x-ticks" placeholder=1 value=1 step=1>
+      </span>
+      <span>
+        <h4>y-ticks</h4>
+        <input type="number" id="y-ticks" placeholder=1 value=1 step=1>
+      </span>
+      <span>
+        <h4>tick marks</h4>
+        <input type="checkbox" id="tick-marks">
+      </span>
+    </div>  
   </body>
 </html>
